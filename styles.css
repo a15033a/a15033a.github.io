@@ -1,0 +1,13 @@
+head, body{
+	font-family: "Trattatello", fantasy;
+	text-align: center;
+	background-image: url("Images/background.jpg");
+	background-repeat: repeat-x;
+}
+p {
+    text-align: left;
+}
+h1 {
+    font-size: 3em;
+    
+}
