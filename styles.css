@@ -1,13 +1,49 @@
 head, body{
 	font-family: "Trattatello", fantasy;
 	text-align: center;
-	background-image: url("Images/background.jpg");
-	background-repeat: repeat-x;
+	background-image: url("Images/PageBackground.png");
+	height:100%;
+	color: white;
 }
-p {
-    text-align: left;
-}
+
 h1 {
-    font-size: 3em;
-    
+    font-size: 4em;
+	text-shadow: 2px 2px 2px rgba(0,0,0, 0.5);
+}
+
+ul {
+	margin: 0; 
+	padding: 0;
+	width:200;
+	height:70;
+	background-color: rgba(0,0,0,0.5);
+}
+
+li {
+	display: inline;
+}
+
+a {
+	color: rgba(255,255,255,0.75);
+	font-size: 2em;
+	text-align: center;
+	padding: 6px 25px;
+}
+
+a:hover {
+	color: white;
+	background-color: black;
+}
+
+#bottom {
+	color: rgba(255,255,255,0.75);
+	font-size: 1.5em;
+	text-align: center;
+}
+
+p {
+	margin-bottom: 3em;
+	margin-right: 3em;
+	margin-left: 3em;
+	text-align: left;
 }
