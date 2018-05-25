@@ -1,0 +1,4 @@
+git add --all (enter)
+git commit -m "My personal Website" (enter)
+git push (enter)
+enter github username and password 
