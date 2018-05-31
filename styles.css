@@ -7,8 +7,10 @@ body, html {
 	color: white;
 	font-family: "Lucida Console", Monaco, monospace;
 	text-align: center;
-	
 }
+
+
+
 h1 {
     font-size: 4em;
 	text-shadow: 2px 2px 2px rgba(0,0,0, 0.5);
@@ -22,6 +24,9 @@ h2{
 h3 {
 	font-size: 2em;
 }
+h4 {
+	font-size: 1.5em;
+}
 ul {
 	margin: 0; 
 	padding: 0;
@@ -29,11 +34,9 @@ ul {
 	height:70;
 	background-color: rgba(0,0,0,0.5);
 }
-
 li {
 	display: inline;
 }
-
 a {
 	color: rgba(255,255,255,0.75);
 	font-size: 2em;
@@ -41,7 +44,6 @@ a {
 	padding: 6px 25px;
 	text-decoration: none;
 }
-
 a:hover {
 	color: white;
 	background-color: black;
@@ -54,10 +56,9 @@ p {
 }
 #bottom {
 	color: rgba(255,255,255,0.75);
-	font-size: 1.5em;
+	font-size: 1em;
 	text-align: center;
-	margin: 0;
-	padding: 0;
+	padding: 6px 25px;
 	width: 200;
 	height: 70;
 }
